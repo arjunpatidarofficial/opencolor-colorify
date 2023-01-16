@@ -1,0 +1,30 @@
+{
+  "name": "opencolor-colorify",
+  "version": "1.0.0",
+  "description": "A Libarary to Opencolor Colorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunpatidarofficial/opencolor-colorify.git"
+  },
+  "keywords": [
+    "Console log colors",
+    "Opencolor",
+    "color"
+  ],
+  "author": "Arjun Patidar <https://arjunpatidar.me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjunpatidarofficial/opencolor-colorify/issues"
+  },
+  "homepage": "https://github.com/arjunpatidarofficial/opencolor-colorify#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "files": ["lib/**/*"]
+}
