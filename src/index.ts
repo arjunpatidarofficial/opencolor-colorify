@@ -12,6 +12,6 @@ export class Log {
   }
 
   static custom(msg: string, color: string, bg: string) {
-    console.log(`%c ${msg}`, `color:${color}`, `background: ${bg}`);
+    console.log(`%c ${msg}`, `color: ${color}; background: ${bg}`);
   }
 }
